@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(39, 220, 45, 0.7);
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input-label {
+    text-align: center;
+    color: rgb(39, 220, 45);
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: blueviolet;
+    width: 20%;
+    border: 5px solid rgb(87, 25, 146);
+    border-radius: 3px;
+    margin: 2px;
+}
+    
+input {
+    font-size: 1.2rem;
+    width: 70%;
+    border: 5px solid rgb(29, 183, 34);
+    border-radius: 3px;
+    background-color: rgb(139, 249, 117);
+    margin: 2px;
+
+}
+
+.button {
+    width: 40%;
+    border: 5px solid rgb(29, 183, 34);
+    border-radius: 3px;
+    font-size: 1.5rem;
+    background-color: rgb(139, 249, 117);
+}
+
+.wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainDiv {
+    position: relative;
+    text-align: center;
+    margin: 35px;
+    width: 500px;
+    height: 500px;
+}
+
+img {
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+}
+
+.top {
+    position: absolute;
+    top: 75px;
+    width: 500px;
+    font-size: 2rem;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color:rgb(237, 242, 243);
+    word-break: break-all;
+}
+
+.bottom {
+    position: absolute;
+    width: 500px;
+    bottom: -50px;
+    font-size: 2rem;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color:rgb(237, 242, 243);
+    word-break: break-all;
+}
+
+button {
+    margin-bottom: 100px;
+}
+
+
